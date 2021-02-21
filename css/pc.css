@@ -240,13 +240,13 @@ hr{
     color: var(--reporte-entrega);
     font-weight: 400;
 }
-.slider__client{
+.slider__clientes{
 
     width: 100vw;
     height: 300px;
 
 }
-.slider__clientes{
+.slider__clientes--lista{
 
     width: 100vw;
     height: 280px;
