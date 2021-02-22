@@ -30,16 +30,19 @@ html{
 }
 header{
 
+    position:absolute;
     width: 100vw;
-    height: 690px;
+    height: 600px;
     background-image: url("../assets/background.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size:cover;
+    top: 0;
     
 }
 header .menu{
 
+    position:fixed;
     background-color:transparent;
     width: 100vw;
     height: 75px;
@@ -48,6 +51,7 @@ header .menu{
     align-items: center;
     /* border-bottom: 1px solid var(--texto-blanco);
     box-shadow: 5px 0 10px rgba(0, 0, 0, .6); */
+    top: 0;
 
 }
 .logo{
@@ -122,9 +126,15 @@ header .menu{
 .caja__logo{
     display: none;
 }
+title{
+
+    top: 100px;
+
+}
 .title .title__cabecera{
 
-    margin: 60px 60px;
+    
+    margin: 200px 100px;
     font-size: 2rem;
     margin-bottom: 20px;
 
@@ -177,20 +187,15 @@ header .menu{
     transition: .5s;
 
 }
-hr{
+header{
     
-    background-color: #ECECEC;
-    height: 2px;
-    border: 0;
-    width: 50%;
-    margin: 0 auto;
-  
-  
+   border-bottom: 1px solid #ECECEC;
+
+
   }   
 .slider{
 
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 550px;
     height: 215px;
     position: relative;
     display: flex;
