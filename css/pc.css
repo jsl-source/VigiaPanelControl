@@ -306,6 +306,7 @@ hr{
     height: 1000px;
 }
 
+
 @media screen and (min-width:1768px){
     header{
         background-size: 2500px 1200px;
