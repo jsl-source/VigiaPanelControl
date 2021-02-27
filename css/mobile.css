@@ -378,12 +378,17 @@ hr{
     transition: .5s;
 
 }
-footer img{
+footer .imgmobile{
 
-    
+    display: block;
     position: absolute;
     width: 100%;
     margin-top: 100px;
+
+}
+footer .imgpc{
+
+    display: none;
 
 }
 
