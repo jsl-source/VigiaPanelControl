@@ -44,16 +44,18 @@ header{
 header .menu{
 
     position:fixed;
-    background-color:transparent;
+    /* background-color:transparent; */
     width: 100vw;
     height: 75px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     top: 0;
+    z-index: 1;
     
 
 }
+
 .logo{
 
     width: 150px;
@@ -119,7 +121,7 @@ header .menu{
     background-color: rgba(255, 255, 255, .3);
     transition: .5s;
 
-}   
+} 
 .user{
     margin-left: 10px;
 }
